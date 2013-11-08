@@ -1,9 +1,7 @@
-" vgod's vimrc
-" Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
-" Fork me on GITHUB  https://github.com/vgod/vimrc
+" ray's vimrc
+" Fork me on GITHUB  https://github.com/chengrs/vimrc
 
-" read https://github.com/vgod/vimrc/blob/master/README.md for more info
-
+" read https://github.com/chengrs/vimrc/blob/master/README.md for more info
 
 " For pathogen.vim: auto load all plugins in .vim/bundle
 
@@ -22,7 +20,7 @@ set bs=2		" allow backspacing over everything in insert mode
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
-
+set number              " show line number
 
 filetype off          " necessary to make ftdetect work on Linux
 syntax on

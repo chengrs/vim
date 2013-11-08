@@ -1,19 +1,21 @@
-vgod's vimrc
+Ray's vimrc
 ============
-Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
+Original Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 
-Fork me on GITHUB  https://github.com/vgod/vimrc.
+Modified by Ray <chengrs@gmail.com>
+
+Fork me on GITHUB  https://github.com/chengrs/vim
 
 ONE-STEP INSTALL
 ----------------
 
 Use curl (for Mac OS X):
 
-     curl -o - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
+     curl -o - https://raw.github.com/chengrs/vimrc/master/auto-install.sh | sh
 
 or wget (for most UNIX platforms):
 
-     wget -O - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
+     wget -O - https://raw.github.com/chengrs/vimrc/master/auto-install.sh | sh
 
 
 MANUALLY INSTALL
@@ -21,7 +23,7 @@ MANUALLY INSTALL
 
 1. Check out from github
 
-        git clone git://github.com/vgod/vimrc.git ~/.vim
+        git clone git://github.com/chengrs/vimrc.git ~/.vim
         cd ~/.vim
         git submodule update --init
 
@@ -42,7 +44,7 @@ MANUALLY INSTALL ON WINDOWS
 
         cd C:\Program Files\Vim   (or your installed path to Vim)
         rmdir /s vimfiles         (This deletes your old vim configurations. If you want to keep it, use move instead of rmdir.)
-        git clone git://github.com/vgod/vimrc.git vimfiles
+        git clone git://github.com/chengrs/vimrc.git vimfiles
         git submodule update --init
 
 2. Install vimrc. Add the following line at the end of C:\Program Files\Vim\vimrc.
@@ -139,8 +141,6 @@ PLUGINS
 * [ack.vim](https://github.com/mileszs/ack.vim): run ack (a better grep) from vim, and shows the results in a split window.
 
   `:Ack [options] {pattern} [{directory}]`
-
-* [Git Gutter](https://github.com/airblade/vim-gitgutter): shows a git diff in the 'gutter' (sign column). It shows whether each line has been added, modified, and where lines have been removed.
 
 Language specific supports
 --------------------------
